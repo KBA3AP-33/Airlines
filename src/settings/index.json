@@ -1,0 +1,42 @@
+{
+    "catalog": {
+        "count": 10
+    },
+    "filter": [
+        {
+            "name": "Сортировать",
+            "key": "sort",
+            "type": "Radio",
+            "points": [
+                { "text": "по возрастанию цены", "value": 1 },
+                { "text": "по убыванию цены", "value": 2 },
+                { "text": "по времени в пути", "value": 3 }
+            ],
+            "disabled": false
+        },
+        {
+            "name": "Фильтровать",
+            "key": "filter",
+            "type": "Checkbox",
+            "points": [],
+            "disabled": false
+        },
+        {
+            "name": "Цена",
+            "key": "price",
+            "type": "InputText",
+            "points": [
+                { "text": "от", "value": "0", "placeholder": "0" },
+                { "text": "до", "value": "100000", "placeholder": "100000" }
+            ],
+            "disabled": false
+        },
+        {
+            "name": "Авиакомпании",
+            "key": "conpany",
+            "type": "Checkbox",
+            "points": [],
+            "disabled": false
+        }
+    ]
+}
